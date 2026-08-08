@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/beat-saber-modding-group/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "BARBAROSSOMOD",
+  "name": "BARBAROSSOMOD",
+  "author": "BARBAROSSO",
+  "version": "0.1.0",
+  "description": "Loads a background image only from the currently selected custom map.",
+  "gameVersion": "1.40.8",
+  "dependsOn": {
+    "BSIPA": "^4.3.6",
+    "SiraUtil": "^3.0.5"
+  }
+}
