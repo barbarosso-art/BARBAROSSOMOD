@@ -1,0 +1,15 @@
+# Build output and downloaded dependencies
+**/build/
+**/extern/
+**/backups/
+**/Library/
+**/Temp/
+**/obj/
+**/Logs/
+*.log
+*.pdb
+PC/BARBAROSSOMOD.dll
+
+# Local game configuration
+UserData/
+ndkpath.txt
