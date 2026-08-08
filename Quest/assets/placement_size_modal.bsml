@@ -1,0 +1,11 @@
+<vertical spacing='1.3' pad='2' child-expand-height='false' vertical-fit='PreferredSize'>
+    <text text='Size' font-size='4.5' />
+
+    <increment-setting id='widthSetting' text='Width' apply-on-change='true' on-change='OnWidthChanged' increment='5'
+        min='10' max='400' pref-width='82' />
+
+    <increment-setting id='heightSetting' text='Height' apply-on-change='true' on-change='OnHeightChanged' increment='5'
+        min='10' max='400' pref-width='82' />
+
+    <button text='Close' on-click='OnCloseSizeClicked' pref-width='30' pref-height='8.5' />
+</vertical>

@@ -1,0 +1,5 @@
+<vertical spacing='2' pad='2' child-expand-height='false' vertical-fit='PreferredSize'>
+    <loading-indicator />
+    <text id='downloadStatusText' text='Downloading...' word-wrapping='true' font-size='4' />
+    <button text='Cancel' on-click='OnCancelDownloadClicked' pref-width='30' pref-height='10' />
+</vertical>

@@ -1,0 +1,14 @@
+<vertical spacing='1.3' pad='2' child-expand-height='false' vertical-fit='PreferredSize'>
+    <text text='Position (meters)' font-size='4.5' />
+
+    <increment-setting id='posXSetting' text='Pos X' apply-on-change='true' on-change='OnPosXChanged' increment='0.05'
+        min='-25' max='25' pref-width='82' />
+
+    <increment-setting id='posYSetting' text='Pos Y' apply-on-change='true' on-change='OnPosYChanged' increment='0.05'
+        min='-5' max='10' pref-width='82' />
+
+    <increment-setting id='posZSetting' text='Pos Z' apply-on-change='true' on-change='OnPosZChanged' increment='0.05'
+        min='-25' max='25' pref-width='82' />
+
+    <button text='Close' on-click='OnClosePositionClicked' pref-width='30' pref-height='8.5' />
+</vertical>

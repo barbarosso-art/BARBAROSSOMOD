@@ -1,0 +1,10 @@
+<settings-container xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='https://raw.githubusercontent.com/RedBrumbler/Quest-BSML-Docs/gh-pages/schema.xsd'>
+    <vertical spacing='1' pad='2' child-expand-height='true' vertical-fit='PreferredSize'>
+        <text text='Library' font-size='5' />
+        <text text='Tap an image to spawn it.' font-size='3.5' italics='true' word-wrapping='true' />
+        <text id='emptyText' text='No images yet. Download one on the left.' font-size='3.5' italics='true'
+            word-wrapping='true' active='false' />
+        <vertical id='gridHost' spacing='1' child-expand-height='true' vertical-fit='PreferredSize' />
+    </vertical>
+</settings-container>

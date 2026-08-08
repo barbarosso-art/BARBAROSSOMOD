@@ -1,0 +1,9 @@
+<vertical spacing='1.3' pad='2' child-expand-height='false' vertical-fit='PreferredSize'>
+    <text text='File Actions' font-size='4.5' />
+
+    <button text='Remove Placed' on-click='OnRemovePlacedForSelectedClicked' pref-width='70' pref-height='8.5' />
+    <button text='Delete File' on-click='OnDeleteFileClicked' pref-width='70' pref-height='8.5' />
+    <button text='Clear All Placed' on-click='OnClearPlacedClicked' pref-width='70' pref-height='8.5' />
+
+    <button text='Close' on-click='OnCloseFileActionsClicked' pref-width='30' pref-height='8.5' />
+</vertical>

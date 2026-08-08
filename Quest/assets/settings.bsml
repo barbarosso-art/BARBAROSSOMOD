@@ -1,0 +1,20 @@
+<vertical spacing='1.35' pad='2' child-expand-height='false' vertical-fit='PreferredSize'>
+    <text text='Controls' font-size='5' />
+
+    <text text='Download' font-size='4' />
+    <vertical id='downloadUrlKeyboardHost' spacing='0.4' child-expand-height='false' vertical-fit='PreferredSize' />
+    <button text='Download' on-click='OnDownloadClicked' pref-width='40' pref-height='9' />
+
+    <text id='statusText' text='Copy a URL containing a direct .jpg/.png/.gif image' italics='true' word-wrapping='true'
+        font-size='3.5' />
+
+    <toggle-setting text='Edit Mode' value='editMode' apply-on-change='true' on-change='OnEditModeChanged'
+        pref-width='90' />
+
+    <dropdown-list-setting id='imageDropdown' text='Selected' choices='imageChoices' value='selectedImage'
+        apply-on-change='true' pref-width='90' />
+    <button text='File Actions...' on-click='OnOpenFileActionsClicked' pref-width='90' pref-height='8.5' />
+
+    <text text='Tip: In Edit Mode, tap an image to edit it on the right panel. Grab the image to move it.'
+        word-wrapping='true' font-size='3.2' />
+</vertical>

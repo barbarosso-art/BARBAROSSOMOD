@@ -1,0 +1,14 @@
+<vertical spacing='1.35' pad='2' child-expand-height='false' vertical-fit='PreferredSize'>
+    <text text='Rotation (degrees)' font-size='4.5' />
+
+    <increment-setting id='rotXSetting' text='Rot X' apply-on-change='true' on-change='OnRotXChanged' increment='5'
+        min='-180' max='180' pref-width='82' />
+
+    <increment-setting id='rotYSetting' text='Rot Y' apply-on-change='true' on-change='OnRotYChanged' increment='5'
+        min='-180' max='180' pref-width='82' />
+
+    <increment-setting id='rotZSetting' text='Rot Z' apply-on-change='true' on-change='OnRotZChanged' increment='5'
+        min='-180' max='180' pref-width='82' />
+
+    <button text='Close' on-click='OnCloseRotationClicked' pref-width='32' pref-height='8.5' />
+</vertical>
