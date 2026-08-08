@@ -11,8 +11,8 @@ the menu or other songs.
 
 ## Downloads
 
-- PC: `Release/BARBAROSSOMOD_v0.1_PC.zip`
-- Quest: `Release/BARBAROSSOMOD_v0.1.qmod`
+- PC: [BARBAROSSOMOD_v0.1_PC.zip](https://github.com/barbarosso-art/BARBAROSSOMOD/releases/download/v0.1.0/BARBAROSSOMOD_v0.1_PC.zip)
+- Quest: [BARBAROSSOMOD_v0.1.qmod](https://github.com/barbarosso-art/BARBAROSSOMOD/releases/download/v0.1.0/BARBAROSSOMOD_v0.1.qmod)
 
 ## Installation
 
